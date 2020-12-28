@@ -9,12 +9,12 @@ local TextLabel = Instance.new("TextLabel")
 local mini = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
-local op2 = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local op = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local UICorner_4 = Instance.new("UICorner")
 local close = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local re = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local op = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local open = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
@@ -36,19 +36,18 @@ main.Active = true
 main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 main.BorderSizePixel = 5
-main.Position = UDim2.new(0.274707943, 0, 0.394417465, 0)
+main.Position = UDim2.new(0.252406925, 0, 0.480582535, 0)
 main.Selectable = true
-main.Size = UDim2.new(0, 558, 0, 196)
+main.Size = UDim2.new(0, 558, 0, 190)
 main.SizeConstraint = Enum.SizeConstraint.RelativeXX
-main.Visible = false
 
 TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 2.000
-TextLabel.Position = UDim2.new(0.0123138968, 0, 0.0268844254, 0)
-TextLabel.Size = UDim2.new(0, 368, 0, 31)
+TextLabel.Position = UDim2.new(-0.0103426147, 0, 0.0274581127, 0)
+TextLabel.Size = UDim2.new(0, 230, 0, 31)
 TextLabel.Font = Enum.Font.Code
-TextLabel.Text = "Ragdoll Engine Gui"
+TextLabel.Text = "Arsenal Gui"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 38.000
 TextLabel.TextWrapped = true
@@ -68,7 +67,7 @@ UICorner.Parent = mini
 TextLabel_2.Parent = main
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 2.000
-TextLabel_2.Position = UDim2.new(0.0129141845, 0, 0.812762499, 0)
+TextLabel_2.Position = UDim2.new(0.0111220693, 0, 0.801897168, 0)
 TextLabel_2.Size = UDim2.new(0, 410, 0, 31)
 TextLabel_2.Font = Enum.Font.Code
 TextLabel_2.Text = "Madde By Kitma Cheats"
@@ -76,35 +75,7 @@ TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 38.000
 TextLabel_2.TextWrapped = true
 
-op2.Name = "op 2"
-op2.Parent = main
-op2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-op2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-op2.BorderSizePixel = 5
-op2.Position = UDim2.new(0.584397733, 0, 0.324000716, 0)
-op2.Size = UDim2.new(0, 203, 0, 66)
-op2.Font = Enum.Font.Code
-op2.Text = "Op Gui"
-op2.TextColor3 = Color3.fromRGB(255, 255, 255)
-op2.TextSize = 20.000
-
-UICorner_2.Parent = op2
-
-op.Name = "op"
-op.Parent = main
-op.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-op.BorderColor3 = Color3.fromRGB(0, 0, 0)
-op.BorderSizePixel = 5
-op.Position = UDim2.new(0.0413870439, 0, 0.318898678, 0)
-op.Size = UDim2.new(0, 203, 0, 66)
-op.Font = Enum.Font.Code
-op.Text = "Op Gui"
-op.TextColor3 = Color3.fromRGB(255, 255, 255)
-op.TextSize = 20.000
-
-UICorner_3.Parent = op
-
-UICorner_4.Parent = main
+UICorner_2.Parent = main
 
 close.Name = "close"
 close.Parent = main
@@ -116,7 +87,35 @@ close.Text = "X"
 close.TextColor3 = Color3.fromRGB(255, 255, 255)
 close.TextSize = 30.000
 
-UICorner_5.Parent = close
+UICorner_3.Parent = close
+
+re.Name = "re"
+re.Parent = main
+re.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+re.BorderColor3 = Color3.fromRGB(0, 0, 0)
+re.BorderSizePixel = 5
+re.Position = UDim2.new(0.611279249, 0, 0.310583502, 0)
+re.Size = UDim2.new(0, 203, 0, 66)
+re.Font = Enum.Font.Code
+re.Text = "Rejoin"
+re.TextColor3 = Color3.fromRGB(255, 255, 255)
+re.TextSize = 20.000
+
+UICorner_4.Parent = re
+
+op.Name = "op"
+op.Parent = main
+op.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+op.BorderColor3 = Color3.fromRGB(0, 0, 0)
+op.BorderSizePixel = 5
+op.Position = UDim2.new(0.0385800004, 0, 0.323263526, 0)
+op.Size = UDim2.new(0, 203, 0, 64)
+op.Font = Enum.Font.Code
+op.Text = "Owl Hub"
+op.TextColor3 = Color3.fromRGB(255, 255, 255)
+op.TextSize = 20.000
+
+UICorner_5.Parent = op
 
 open.Name = "open"
 open.Parent = admin
@@ -138,8 +137,9 @@ UICorner_6.Parent = TextButton
 
 Frame.Parent = admin
 Frame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-Frame.Position = UDim2.new(0.452749819, 0, 0.37621361, 0)
+Frame.Position = UDim2.new(0.416736424, 0, 0.389563113, 0)
 Frame.Size = UDim2.new(0, 428, 0, 204)
+Frame.Visible = false
 
 UICorner_7.Parent = Frame
 
@@ -170,12 +170,13 @@ ImageButton.BackgroundTransparency = 1.000
 ImageButton.Position = UDim2.new(0.362149537, 0, 0.289215684, 0)
 ImageButton.Size = UDim2.new(0, 117, 0, 100)
 ImageButton.Image = "http://www.roblox.com/asset/?id=6150722163"
-print("autres yüklendi/loaded Eror 0 Oyun = Ragdoll Engine İyi Oyunlar / Have Nice Games")
+print("autres yüklendi/loaded Eror 0 Oyun = Mad City İyi Oyunlar / Have Nice Games")
 open.Visible = false
 main.Visible = false
 ImageButton.Visible = false
 TextLabel_3.Visible = false
 TextLabel_4.Visible = false
+Frame.Visible = true
 Frame.BackgroundTransparency = 0.90
 wait(0.001)
 Frame.BackgroundTransparency = 0.80
@@ -211,7 +212,7 @@ TextLabel_4.Visible = false
 wait(0.1)	
 close.Visible = false
 mini.Visible = false
-op2.Visible = false
+re.Visible = false
 op.Visible = false
 TextLabel.Visible = false	
 TextLabel_2.Visible = false
@@ -262,7 +263,7 @@ main.BackgroundTransparency = 0
 wait(1)
 close.Visible = true
 wait(0.001)
-op2.Visible = true
+re.Visible = true
 wait(0.001)
 op.Visible = true
 wait(0.001)
@@ -275,12 +276,39 @@ wait(0.001)
 TextLabel_2.Visible = true
 main.Draggable = true
 close.MouseButton1Down:connect(function()
+	close.Visible = false
+	mini.Visible = false
+	re.Visible = false
+	op.Visible = false
+	TextLabel.Visible = false	
+	TextLabel_2.Visible = false
+	main.BackgroundTransparency = 0
+	wait(0.001)
+	main.BackgroundTransparency = 0.10
+	wait(0.001)
+	main.BackgroundTransparency = 0.20
+	wait(0.001)
+	main.BackgroundTransparency = 0.30
+	wait(0.001)
+	main.BackgroundTransparency = 0.40
+	wait(0.001)
+	main.BackgroundTransparency = 0.50
+	wait(0.001)
+	main.BackgroundTransparency = 0.60
+	wait(0.001)
+	main.BackgroundTransparency = 0.70
+	wait(0.001)
+	main.BackgroundTransparency = 0.80
+	wait(0.001)
+	main.BackgroundTransparency = 0.90
+	wait(0.001)
+	main.BackgroundTransparency = 1
 	admin:Destroy()
 end)
 mini.MouseButton1Down:connect(function()
 	close.Visible = false
 	mini.Visible = false
-	op2.Visible = false
+	re.Visible = false
 	op.Visible = false
 	TextLabel.Visible = false	
 	TextLabel_2.Visible = false
@@ -332,22 +360,20 @@ TextButton.MouseButton1Down:connect(function()
 	main.BackgroundTransparency = 0
 	close.Visible = true
 	wait(0.001)
-	op2.Visible = true
+	re.Visible = true
 	wait(0.001)
 	op.Visible = true
 	wait(0.001)
 	mini.Visible = true
 	wait(0.001)
-	wait(0.001)
-	wait(0.001)
 	TextLabel.Visible = true
 	wait(0.001)
 	TextLabel_2.Visible = true
 end)
---------------------------------
+-------------------------------
+re.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(45146873)
+end)
 op.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/RagdollEngineGui2", true))()
-end)
-op2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/RagdollEngineGui1", true))()
-end)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/ovelehab.txt"))()
+end)	

@@ -3,52 +3,53 @@
 
 -- Instances:
 
-local admin = Instance.new("ScreenGui")
+local babft = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 local mini = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
-local op2 = Instance.new("TextButton")
+local rejoin = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local op = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local UICorner_4 = Instance.new("UICorner")
 local close = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local auto = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
 local open = Instance.new("Frame")
 local TextButton = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local Frame = Instance.new("Frame")
 local UICorner_7 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
 
 --Properties:
 
-admin.Name = "admin"
-admin.Parent = game.CoreGui
+babft.Name = "babıft"
+babft.Parent = game.CoreGui
 
 main.Name = "main"
-main.Parent = admin
+main.Parent = babft
 main.Active = true
 main.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
 main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 main.BorderSizePixel = 5
 main.Position = UDim2.new(0.274707943, 0, 0.394417465, 0)
 main.Selectable = true
-main.Size = UDim2.new(0, 558, 0, 196)
+main.Size = UDim2.new(0, 558, 0, 299)
 main.SizeConstraint = Enum.SizeConstraint.RelativeXX
-main.Visible = false
 
 TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 2.000
-TextLabel.Position = UDim2.new(0.0123138968, 0, 0.0268844254, 0)
-TextLabel.Size = UDim2.new(0, 368, 0, 31)
+TextLabel.Position = UDim2.new(-0.0165547729, 0, 0.00909209251, 0)
+TextLabel.Size = UDim2.new(0, 193, 0, 31)
 TextLabel.Font = Enum.Font.Code
-TextLabel.Text = "Ragdoll Engine Gui"
+TextLabel.Text = "Babft Gui"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 38.000
 TextLabel.TextWrapped = true
@@ -68,7 +69,7 @@ UICorner.Parent = mini
 TextLabel_2.Parent = main
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 2.000
-TextLabel_2.Position = UDim2.new(0.0129141845, 0, 0.812762499, 0)
+TextLabel_2.Position = UDim2.new(0.0129141845, 0, 0.879652143, 0)
 TextLabel_2.Size = UDim2.new(0, 410, 0, 31)
 TextLabel_2.Font = Enum.Font.Code
 TextLabel_2.Text = "Madde By Kitma Cheats"
@@ -76,26 +77,26 @@ TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 38.000
 TextLabel_2.TextWrapped = true
 
-op2.Name = "op 2"
-op2.Parent = main
-op2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-op2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-op2.BorderSizePixel = 5
-op2.Position = UDim2.new(0.584397733, 0, 0.324000716, 0)
-op2.Size = UDim2.new(0, 203, 0, 66)
-op2.Font = Enum.Font.Code
-op2.Text = "Op Gui"
-op2.TextColor3 = Color3.fromRGB(255, 255, 255)
-op2.TextSize = 20.000
+rejoin.Name = "rejoin"
+rejoin.Parent = main
+rejoin.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+rejoin.BorderColor3 = Color3.fromRGB(0, 0, 0)
+rejoin.BorderSizePixel = 5
+rejoin.Position = UDim2.new(0.308412105, 0, 0.591559231, 0)
+rejoin.Size = UDim2.new(0, 203, 0, 66)
+rejoin.Font = Enum.Font.Code
+rejoin.Text = "Rejoin"
+rejoin.TextColor3 = Color3.fromRGB(255, 255, 255)
+rejoin.TextSize = 20.000
 
-UICorner_2.Parent = op2
+UICorner_2.Parent = rejoin
 
 op.Name = "op"
 op.Parent = main
 op.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 op.BorderColor3 = Color3.fromRGB(0, 0, 0)
 op.BorderSizePixel = 5
-op.Position = UDim2.new(0.0413870439, 0, 0.318898678, 0)
+op.Position = UDim2.new(0.0395949259, 0, 0.278764904, 0)
 op.Size = UDim2.new(0, 203, 0, 66)
 op.Font = Enum.Font.Code
 op.Text = "Op Gui"
@@ -118,8 +119,22 @@ close.TextSize = 30.000
 
 UICorner_5.Parent = close
 
+auto.Name = "auto"
+auto.Parent = main
+auto.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+auto.BorderColor3 = Color3.fromRGB(0, 0, 0)
+auto.BorderSizePixel = 5
+auto.Position = UDim2.new(0.589774132, 0, 0.278764904, 0)
+auto.Size = UDim2.new(0, 203, 0, 66)
+auto.Font = Enum.Font.Code
+auto.Text = "Auto Farm"
+auto.TextColor3 = Color3.fromRGB(255, 255, 255)
+auto.TextSize = 20.000
+
+UICorner_6.Parent = auto
+
 open.Name = "open"
-open.Parent = admin
+open.Parent = babft
 open.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 open.BackgroundTransparency = 2.000
 open.Position = UDim2.new(0, 0, 0.535194218, 0)
@@ -134,14 +149,15 @@ TextButton.Text = "Aç/Open"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 14.000
 
-UICorner_6.Parent = TextButton
+UICorner_7.Parent = TextButton
 
-Frame.Parent = admin
+Frame.Parent = babft
 Frame.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
-Frame.Position = UDim2.new(0.452749819, 0, 0.37621361, 0)
+Frame.Position = UDim2.new(0.416736424, 0, 0.389563113, 0)
 Frame.Size = UDim2.new(0, 428, 0, 204)
+Frame.Visible = false
 
-UICorner_7.Parent = Frame
+UICorner_8.Parent = Frame
 
 TextLabel_3.Parent = Frame
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -170,12 +186,13 @@ ImageButton.BackgroundTransparency = 1.000
 ImageButton.Position = UDim2.new(0.362149537, 0, 0.289215684, 0)
 ImageButton.Size = UDim2.new(0, 117, 0, 100)
 ImageButton.Image = "http://www.roblox.com/asset/?id=6150722163"
-print("autres yüklendi/loaded Eror 0 Oyun = Ragdoll Engine İyi Oyunlar / Have Nice Games")
+print("autres yüklendi/loaded Eror 0 Oyun = Babft İyi Oyunlar / Have Nice Games")
 open.Visible = false
 main.Visible = false
 ImageButton.Visible = false
 TextLabel_3.Visible = false
 TextLabel_4.Visible = false
+Frame.Visible = true
 Frame.BackgroundTransparency = 0.90
 wait(0.001)
 Frame.BackgroundTransparency = 0.80
@@ -211,8 +228,9 @@ TextLabel_4.Visible = false
 wait(0.1)	
 close.Visible = false
 mini.Visible = false
-op2.Visible = false
+rejoin.Visible = false
 op.Visible = false
+auto.Visible = false
 TextLabel.Visible = false	
 TextLabel_2.Visible = false
 Frame.BackgroundTransparency = 0
@@ -262,12 +280,13 @@ main.BackgroundTransparency = 0
 wait(1)
 close.Visible = true
 wait(0.001)
-op2.Visible = true
+rejoin.Visible = true
 wait(0.001)
 op.Visible = true
 wait(0.001)
 mini.Visible = true
 wait(0.001)
+auto.Visible = true
 wait(0.001)
 wait(0.001)
 TextLabel.Visible = true
@@ -275,15 +294,16 @@ wait(0.001)
 TextLabel_2.Visible = true
 main.Draggable = true
 close.MouseButton1Down:connect(function()
-	admin:Destroy()
+	babft:Destroy()
 end)
 mini.MouseButton1Down:connect(function()
 	close.Visible = false
 	mini.Visible = false
-	op2.Visible = false
+	rejoin.Visible = false
 	op.Visible = false
 	TextLabel.Visible = false	
 	TextLabel_2.Visible = false
+	auto.Visible = false
 	main.BackgroundTransparency = 0
 	wait(0.001)
 	main.BackgroundTransparency = 0.10
@@ -332,12 +352,13 @@ TextButton.MouseButton1Down:connect(function()
 	main.BackgroundTransparency = 0
 	close.Visible = true
 	wait(0.001)
-	op2.Visible = true
+	rejoin.Visible = true
 	wait(0.001)
 	op.Visible = true
 	wait(0.001)
 	mini.Visible = true
 	wait(0.001)
+	auto.Visible = true
 	wait(0.001)
 	wait(0.001)
 	TextLabel.Visible = true
@@ -345,9 +366,12 @@ TextButton.MouseButton1Down:connect(function()
 	TextLabel_2.Visible = true
 end)
 --------------------------------
-op.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/RagdollEngineGui2", true))()
+auto.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/build%20a%20boat%20afk%20farm.txt',true))()
 end)
-op2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/RagdollEngineGui1", true))()
+rejoin.MouseButton1Down:connect(function()
+	game:GetService("TeleportService"):Teleport(537413528)
+end)
+op.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/AGEMBAKLAVACI/baklavan-nsaer-s-n-nsar-s-/main/build%20a%20boat%20gui.txt',true))()
 end)
